@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li class="item-1"><span>Item 1 content</span></li>
+    <li class="item-2"><span>Item 2 content</span></li>
+    <li class="item-3"><span>Item 3 content</span></li>
+    <li class="item-4"><span>Item 4 content</span></li>
+</ul>
+
+<style>
+    ul{
+        font-size: 14px;
+        line-height: 4em;
+    }
+    li {
+         display: block;
+        text-align: center;
+        margin: 1em;
+    }
+    li span {
+        display: block;
+        width: 6em;
+        background:coral;
+    }
+    .item-2:hover span {
+        transform: translate(100px, 0);
+    }
+    .item-3:hover span{
+         transform:rotate(45deg);
+    }
+    .item-4:hover span{
+        transform: scale(2,0.5);
+    }
+    </style>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="http://example.com">访问链接</a>
+
+<style>
+    a::before{
+        content: '\2693';
+    }
+    a::after {
+        content: '(' attr(href) ')';
+    }
+</style>
+</body>
+</html>
